@@ -48,7 +48,7 @@
   
   <script>
   export default {
-    name: 'Formulaire',
+    name: 'submit_form',
     data() {
       return {
         form: {

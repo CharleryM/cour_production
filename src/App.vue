@@ -1,18 +1,18 @@
 <template>
   <div>
     <Formulaire />
-    <Graph />
+    <BarGraph />
   </div>
 </template>
 
 <script>
-import Graph from './components/Graph.vue';
+import BarGraph from './components/BarGraph.vue';
 import Formulaire from './components/Form.vue'
 
 export default {
   name: 'App',
   components: {
-    Graph,
+    BarGraph,
     Formulaire
   }
 }
@@ -23,3 +23,4 @@ h1 {
   color: #2c3e50;
 }
 </style>
+
