@@ -48,7 +48,7 @@
   
   <script>
   export default {
-    name: 'Formulaire',
+    name: 'form_dep',
     data() {
       return {
         form: {
