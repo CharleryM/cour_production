@@ -37,8 +37,8 @@ export default {
 </script>
 
 <template>
-  <div class="grid-container">
-      <div class="colomne-grid"></div>
+  <div class="grid-container-3">
+      <div class="colomne-grid-graph"></div>
       <div class="canvas">
         <Bar
           id="my-chart-id"
@@ -51,13 +51,13 @@ export default {
 </template>
 
 <style>
-.grid-container {
+.grid-container-3 {
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 10px;
 }
 
-.colomne-grid{
+.colomne-grid-graph{
   margin: 50px;
   text-align: center;
 }
